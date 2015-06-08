@@ -1,0 +1,3 @@
+com.matsemann.ea.provider.DistributedAlgorithmProvider
+org.moeaframework.algorithm.StandardAlgorithms
+org.moeaframework.algorithm.pisa.PISAAlgorithms
