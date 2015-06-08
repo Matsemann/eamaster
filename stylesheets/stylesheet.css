@@ -18,9 +18,9 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(2, 2, 2, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -29,10 +29,10 @@ a {
     margin-left: 1rem; }
 
 .btn:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(54, 54, 54, 1);
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.6); }
 
 @media screen and (min-width: 64em) {
   .btn {
@@ -54,14 +54,16 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  color: rgb(54, 54, 54);
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #1C5DA7;
+  background-image: linear-gradient(120deg, #69abc8 20%, #e7bd5c); }
+  /**background-image: linear-gradient(70deg, #004490 70%, #D29812); }**/
+  /**background-image: linear-gradient(120deg, #155799, #159957); }**/
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 3rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -90,7 +92,7 @@ a {
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
-  opacity: 0.7; }
+ }
 
 @media screen and (min-width: 64em) {
   .project-tagline {
@@ -112,7 +114,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #000000; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -227,6 +229,7 @@ a {
 
 .site-footer-owner {
   display: block;
+  font-size: 1.3em;
   font-weight: bold; }
 
 .site-footer-credits {
@@ -234,12 +237,29 @@ a {
 
 @media screen and (min-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: 0.7rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: 0.7rem; } }
 
 @media screen and (max-width: 42em) {
   .site-footer {
-    font-size: 0.9rem; } }
+    font-size: 0.6rem; } }
+
+	
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

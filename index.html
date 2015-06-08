@@ -11,26 +11,67 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">EA Master</h1>
-      <h2 class="project-tagline">Evolving Lacing Patterns</h2>
-      <a href="https://github.com/Matsemann/eamaster" class="btn">View on GitHub</a>
+      <h1 class="project-name">Evolving Lacing Patterns</h1>
+      <h2 class="project-tagline">Master's Thesis of Mats Krüger Svensson</h2>
+      <a href="https://github.com/Matsemann/eamaster" class="btn">View code on GitHub</a>
       <a href="https://github.com/Matsemann/eamaster/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/Matsemann/eamaster/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
-      <h1>
-<a id="overskrift" class="anchor" href="#overskrift" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overskrift</h1>
-
-<h2>
-<a id="underoverskrift" class="anchor" href="#underoverskrift" aria-hidden="true"><span class="octicon octicon-link"></span></a>Underoverskrift</h2>
-
-<h1>
-<a id="-overskrift-2" class="anchor" href="#-overskrift-2" aria-hidden="true"><span class="octicon octicon-link"></span></a> Overskrift 2</h1>
+<h1><a id="overskrift" class="anchor" href="#overskrift" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h1>
+<p></p>
 
 
+<h1><a id="-overskrift-2" class="anchor" href="#-overskrift-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Video</h1>
+<p>Here is a video demonstrating the system. It shows how the distribution works and some evolved wheels in the simulator. The core of the EA is built upon the MOEA Framework.
+Please view the video in fullscreen and on the highest quality.
+</p>
 
-<p>jeje <b>llll</b> adasd</p>
+<div class="video">
+	<iframe style="width: 100%;" src="https://www.youtube.com/embed/QdXPrnuw6Ak?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<h1><a id="-overskrift-2" class="anchor" href="#-overskrift-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thesis</h1>
+<p><a href="">Download the thesis</a> in pdf-format. It is also included in the downloaded archive.
+</p>
+
+<h2>Abstract</h2>
+
+
+<blockquote>
+<p>
+This thesis investigates the use of evolutionary algorithms (EAs) to evolve and optimize
+ lacing patterns of spokes for a bicycle wheel. There are multiple objectives and tradeoffs to
+ be considered when evaluating a lacing pattern, for instance, strength versus balance. 
+ To handle this, an evolutionary multiobjective optimization (EMO) method has been used.
+ </p>
+
+ <p>
+Various EMO algorithms and approaches are tested. Among these, the new NSGA-III algorithm is used. 
+Different representations of the lacing patterns for the wheels are compared,
+ and also two different representations of the problem for the EMO.
+ </p>
+
+ <p>
+A novel wheel simulator has been made to test the lacing patterns. 
+As the number of needed wheel simulations take a considerable amount of time, 
+the work is distributed among multiple computers.
+</p>
+
+<p>
+The EMO is successful in the search for good lacing patterns. One of the most common patterns, 
+the 3x, is found, along with other comparable patterns with different tradeoffs.
+The results show no improvement in using the new NSGA-III algorithm compared to the older NSGA-II.
+ The representation with a bias for uniformly laced spokes let the EA evolve better wheels than other representations, 
+ showing that carefully choosing the representation for what is being optimized is important.
+ The results also show how important it is to represent a problem using multiple objectives, as the 
+ wheels evolved when the number of objectives was reduced are worse than those with a higher number of objectives.
+ </p>
+
+
+</blockquote>
+
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/Matsemann/eamaster">EA Master</a> is maintained by <a href="https://github.com/Matsemann">Matsemann</a>.</span>
