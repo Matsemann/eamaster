@@ -160,8 +160,8 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <!--<mainClass>com.matsemann.ea.ipc.remote.RemoteLauncher</mainClass>-->
-                            <mainClass>com.matsemann.launcher.LaunchTool</mainClass>
+                            <mainClass>com.matsemann.ea.ipc.remote.RemoteLauncher</mainClass>
+                            <!--<mainClass>com.matsemann.launcher.LaunchTool</mainClass>-->
                             <!--<mainClass>com.matsemann.launcher.TestRunner</mainClass>-->
                         </manifest>
                     </archive>
